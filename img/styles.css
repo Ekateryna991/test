@@ -1,0 +1,38 @@
+.contact {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-ul {
+  display: flex;
+  list-style: none;
+}
+
+.mail-link,
+.tel-link {
+  text-decoration: none;
+  color: #757575;
+}
+
+.phone-icon {
+  width: 10px;
+  height: 15px;
+  fill: currentColor;
+}
+
+.tel-icon {
+  width: 16px;
+  height: 11px;
+  fill: currentColor;
+}
