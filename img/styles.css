@@ -5,6 +5,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  list-style: none;
 
   color: #757575;
 
@@ -16,13 +17,30 @@
 
 .contact-ul {
   display: flex;
-  list-style: none;
+
+  list-style-position: outside;
 }
 
-.mail-link,
+.tel-link:hover {
+  color: red;
+}
+
+.mail-link:hover {
+  color: red;
+}
+
 .tel-link {
   text-decoration: none;
   color: #757575;
+  height: 50px;
+}
+
+.mail-link {
+  text-decoration: none;
+  color: #757575;
+  background-size: contain;
+  /* background-color: darkgoldenrod; */
+  padding: 10px 20px;
 }
 
 .phone-icon {
@@ -32,6 +50,8 @@
 }
 
 .tel-icon {
+  display: block;
+  box-sizing: border-box;
   width: 16px;
   height: 11px;
   fill: currentColor;
